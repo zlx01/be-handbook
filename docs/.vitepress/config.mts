@@ -36,6 +36,11 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/zlx01/be-handbook' }
-    ]
+    ],
+
+    footer: {
+      message: 'Powered by VitePress',
+      copyright: 'MIT Licensed | Copyright © 2019-present zlx'
+    },
   }
 })

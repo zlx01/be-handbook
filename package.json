@@ -1,11 +1,26 @@
 {
+  "name": "be-handbook",
+  "version": "1.0.0",
+  "description": "A handbook for back-end developers",
+  "keywords": ["back-end", "handbook", "Java", "Spring", "Spring Boot"],
+  "main": "index.js",
+  "author": {
+    "name": "zlx01",
+    "url": "https://github.com/zlx01"
+  },
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zlx01/be-handbook.git"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs --host",
+    "docs:build": "node ModifyVPAlgoliaSearchBox.js && vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
   "devDependencies": {
     "@types/node": "^22.13.14",
     "vitepress": "^1.6.3"
-  },
-  "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
   }
 }
