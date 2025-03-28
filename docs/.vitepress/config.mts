@@ -1,9 +1,22 @@
 import { defineConfig } from 'vitepress'
 
+const base = process.env.DEPLOY_BASE
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang: 'en-US',
   title: "be-handbook",
   description: "Back-End Web Developer HandBook",
+  base: base || '/be-handbook/',
+  head: [
+    ['meta', { name: 'author', content: 'zlx' }],
+    ['meta', { name: 'keywords', content: 'backend, back-end, handbook, developer, web, java, java ee, tomcat, servlet, jsp, spring, spring boot, spring cloud, maven, gradle, mysql, oracle, redis' }],
+    ['meta', { name: 'generator', content: 'vitepress' }],
+  ],
+  lastUpdated: true,
+  markdown: {
+    externalLinks: { target: '_blank', rel: 'nofollow noopener noreferrer' },
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
