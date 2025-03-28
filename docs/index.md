@@ -1,25 +1,38 @@
----
-# https://vitepress.dev/reference/default-theme-home-page
-layout: home
+# FullStack Developer HandBook
 
-hero:
-  name: "be-handbook"
-  text: "Back-End Web Developer HandBook"
-  tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+## Front-End 
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
----
+https://zlx01.github.io/fe-handbook/
+
+
+## Reference
+
+* https://docs.oracle.com/en/java/index.html
+* https://web.dev/
+* https://wangchujiang.com/reference/
+* https://quickref.me/
+
+## Road Map
+
+* https://andreasbm.github.io/web-skills/
+* https://roadmap.sh/
+
+## IDE
+
+* [Intellij IDEA](https://www.jetbrains.com/zh-cn/idea/)
+* [VSCode](https://code.visualstudio.com/)
+
+
+## Git
+
+* https://git-scm.com/
+* https://github.com/
+* https://about.gitlab.com/
+
+
+## Other Resources
+
+* https://www.runoob.com/
+* https://how2j.cn/
+* https://hollischuang.github.io/toBeTopJavaer/#/
 

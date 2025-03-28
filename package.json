@@ -1,8 +1,8 @@
 {
-  "name": "be-handbook",
+  "name": "fullstack-handbook",
   "version": "1.0.0",
-  "description": "A handbook for back-end developers",
-  "keywords": ["back-end", "handbook", "Java", "Spring", "Spring Boot"],
+  "description": "A handbook for fullstack developers",
+  "keywords": [],
   "main": "index.js",
   "author": {
     "name": "zlx01",
@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zlx01/be-handbook.git"
+    "url": "https://github.com/zlx01/fullstack-handbook.git"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs --host",
