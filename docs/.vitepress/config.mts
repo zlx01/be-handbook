@@ -38,7 +38,7 @@ export default defineConfig({
       provider: 'algolia',
       options: {
         appId: 'D5I8QWQRGT',
-        apiKey: '47979d23dd02b788a31a96a9894e6bdb',
+        apiKey: 'ecde0cc878112818b538f418a9ad3dec',
         indexName: 'fullstack-handbook'
       }
     },
